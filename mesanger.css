@@ -1,0 +1,165 @@
+/* Unversal */
+
+/* Navigatio section */
+nav{
+  color:auto;
+  text-align: right;
+  font-size:24px;
+  padding: 10px;
+  margin-top: 30px;
+  border-style: solid ;
+  
+  color: #ffffff;
+ 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+a{
+  
+  color:black;
+  border-radius: 20px;
+  background-color:;
+}
+
+nav a:hover {
+  background: lightcoral;
+  transform: scale(1.05);
+}
+
+/* Display flex*/
+.flex{
+  
+  display:flex;
+  background-color:white;
+}
+
+/*Shadows 2D Trans form*/
+.flex {
+  background: linear-gradient(to right, #ece9f7, #ffffff);
+
+    }
+
+
+/* College Name*/
+#title{
+  font-size: 35px;
+  padding-right: 10px;
+  margin: 10px;
+}
+/* Border line Top*/
+#line1{
+  border-top: solid;
+  border-width: 4px;
+}
+
+/* Tiltle */
+.title{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* Tiltle Content*/
+.title_c{
+  text-align: center;
+  font-size:90px;
+  padding: 20px;
+  border: double;
+  border-width:auto;
+}
+
+              /* End of Navigatio and Logo*/
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0056a1;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-form,
+  .messages-display {
+    margin-bottom: 2rem;
+  }
+  
+  .message-form h2,
+  .messages-display h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: vertical;
+  }
+  
+  form button {
+    display: inline-block;
+    background-color: #0056a1;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  form button:hover {
+    background-color: #004080;
+  }
+  
+  .messages-display p {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f4f4f9;
+    font-size: 0.9rem;
+  }
+
+  body{
+    background: linear-gradient(to right, #ffe8e8, #ffffff);
+}

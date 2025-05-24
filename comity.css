@@ -1,0 +1,151 @@
+/* Unversal */
+
+/* Navigatio section */
+nav{
+    color:auto;
+    text-align: right;
+    font-size:24px;
+    padding: 10px;
+    margin-top: 30px;
+    border-style: solid ;
+    
+    color: #ffffff;
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+a{
+    
+    color:black;
+    border-radius: 20px;
+    background-color:;
+}
+
+nav a:hover {
+    background: lightcoral;
+    transform: scale(1.05);
+}
+
+/* Display flex*/
+.flex{
+    
+    display:flex;
+    background-color:white;
+}
+
+/*Shadows 2D Trans form*/
+.flex {
+    background: linear-gradient(to right, #ece9f7, #ffffff);
+
+      }
+
+
+/* College Name*/
+#title{
+    font-size: 35px;
+    padding-right: 10px;
+    margin: 10px;
+}
+/* Border line Top*/
+#line1{
+    border-top: solid;
+    border-width: 4px;
+}
+
+/* Tiltle */
+.title{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* Tiltle Content*/
+.title_c{
+    text-align: center;
+    font-size:90px;
+    padding: 20px;
+    border: double;
+    border-width:auto;
+}
+
+                /* End of Navigatio and Logo*/
+
+.evet_7{
+    font-size: 70px;
+    padding:20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-style: double;
+    padding: 20px;
+    background: linear-gradient(to right, #e3eaf8, #fef6ff);
+border-radius: 80px;
+}
+
+.f_l1,.h_part{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+.f_img{
+    border-style: solid;
+    border-width: 10px;
+    margin-left: 620px;
+    margin-top: 20px;
+
+    
+}
+
+.f_l2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.f_l3{
+    text-align: center;
+    font-size: 27px;
+
+}
+
+.f_img1{
+    border-style: solid;
+    border-width: 10px;   
+}
+.f_img0{
+    
+    border-style: solid;
+    border-width: 10px;  
+}
+
+.p_l1{
+    text-align: center;
+    font-weight: bolder;
+    font-size:29px;
+}
+
+.p_l2{
+    text-align: center;
+    font-size: 27px;
+}
+.part0{
+    text-align: center;
+    display: flex;
+    margin-left: 250px;
+}
+
+.hod_t{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.im{
+   
+}
+
+body{
+    background: linear-gradient(to right, #ffe8e8, #ffffff);
+}

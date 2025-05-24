@@ -1,0 +1,112 @@
+/* Unversal */
+
+/* Navigatio section */
+nav{
+    color:auto;
+    text-align: right;
+    font-size:24px;
+    padding: 10px;
+    margin-top: 30px;
+    border-style: solid ;
+    
+    color: #ffffff;
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+a{
+    
+    color:black;
+    border-radius: 20px;
+    background-color:;
+}
+
+nav a:hover {
+    background: lightcoral;
+    transform: scale(1.05);
+}
+
+/* Display flex*/
+.flex{
+    
+    display:flex;
+    background-color:white;
+}
+
+/*Shadows 2D Trans form*/
+.flex {
+    background: linear-gradient(to right, #ece9f7, #ffffff);
+
+      }
+
+
+/* College Name*/
+#title{
+    font-size: 35px;
+    padding-right: 10px;
+    margin: 10px;
+}
+/* Border line Top*/
+#line1{
+    border-top: solid;
+    border-width: 4px;
+}
+
+/* Tiltle */
+.title{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* Tiltle Content*/
+.title_c{
+    text-align: center;
+    font-size:90px;
+    padding: 20px;
+    border: double;
+    border-width:auto;
+}
+
+                /* End of Navigatio and Logo*/
+
+.img1{
+    border-style: solid;
+    border-width: 10px;
+    text-align: center;
+    margin-left: 300px;
+    
+}
+
+.tc1{
+    text-align: center;
+    padding: 50px;
+    font-size: 70px;
+}
+
+.l1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 300px;
+}
+
+.l2{
+    text-align: center;
+    font-size: 25px;
+    padding-left: 300px;
+}
+
+.l3{
+    text-align: center;
+    font-size: 20px;
+    padding-left: 300px;
+}
+
+.all{
+    display: flex;
+}
+
+body{
+    background: linear-gradient(to right, #ffe8e8, #ffffff);
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edittig</title>
+    <link rel="stylesheet" href="Editting.css">
+</head>
+<body>
+    <!--Logo and College Name-->
+    <div class="flex">
+        <div class="logo" style="display: flex;">
+            <img src="Logo/logo.png" width="120px" height="auto" style="border-left: double; border-width:6px;">
+            <p id="title" style="border-right: double; border-width: 6px;">Siddagaga Institute of <br>Technology Tumakur</p>
+        </div>
+        <!--Navigation Bar-->
+        <div class="nvabar">
+        <nav>
+            <a herf="" style="padding: 5px;">Conference | |</a>
+        <a href="Conference website.html" style="padding:5px;">Home</a>
+        <a href="events.html" style="padding: 5px;">Events Overview</a>
+        <a href="comity.html" style="padding: 5px;">Committes</a>
+        <a href="mesanger.html" style="padding: 5px;">Informer Blog</a>
+        <a href="regestration.html" style="padding: 5px;">Registration</a>
+        <a href="cnotact.html" style="padding: 5px;">Contact Us</a>
+        <a href="Editting.html" style="padding: 5px;">Edittig</a>
+            
+        </nav>
+            </div>
+                </div>
+        <div>
+            <div id="line1"></div>
+         </div>
+    
+           <!--Title-->
+<div class="title" style=";"
+
+">Conference on</div>
+
+<!--Title Content-->
+<div class="title_c" style="background: linear-gradient(to right, #e3eaf8, #fef6ff);
+border-radius: 80px;"
+>Enter the Titelto Display <br>In Home Page Conference</div>
+
+<form  for="changeTextForm" action="">
+    <Label for="newText">Enter The Titel</Label><br>
+    <input type="text" id="newText" name="newText"><br><br>
+
+    <input type="submit" value="Submit" style="font-size: 55px; border-radius: 30px;">
+</form>
+
+<!--Part 2-->
+<script>
+    document.getElementById('changeTextForm').addEventListener('submit', (event) => {
+      event.preventDefault(); // Prevent the form from submitting normally
+      const newText = document.getElementById('newText').value;
+
+      // Store the text in localStorage to pass it to 2.html
+      localStorage.setItem('h1Text', newText);
+
+      // Redirect to 2.html
+      window.location.href = '2.html';
+    });
+  </script>
+
+</body>
+</html>

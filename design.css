@@ -1,0 +1,169 @@
+/* Unversal */
+
+/* Navigatio section */
+nav{
+    color:auto;
+    text-align: right;
+    font-size:24px;
+    padding: 10px;
+    margin-top: 30px;
+    border-style: solid ;
+    
+    color: #ffffff;
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+a{
+    
+    color:black;
+    border-radius: 20px;
+    background-color:;
+}
+
+nav a:hover {
+    background: lightcoral;
+    transform: scale(1.05);
+}
+
+/* Display flex*/
+.flex{
+    
+    display:flex;
+    background-color:white;
+}
+
+/*Shadows 2D Trans form*/
+.flex {
+    background: linear-gradient(to right, #ece9f7, #ffffff);
+
+      }
+
+
+/* College Name*/
+#title{
+    font-size: 35px;
+    padding-right: 10px;
+    margin: 10px;
+}
+/* Border line Top*/
+#line1{
+    border-top: solid;
+    border-width: 4px;
+}
+
+/* Tiltle */
+.title{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* Tiltle Content*/
+.title_c{
+    text-align: center;
+    font-size:90px;
+    padding: 20px;
+    border: double;
+    border-width:auto;
+}
+
+                /* End of Navigatio and Logo*/
+
+/* Shudule*/
+.summit{  
+    font-size: 50px;
+    padding:20px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Date and Time*/
+.date_time{
+    text-align: left;
+}
+.day1,.day2
+{
+ text-align: center;   
+}
+/*  Date1 */
+.date1{
+    font-size: 35px;
+    padding: 10px;
+    margin-left:55px ;
+
+}
+
+/* Time 1,2,3*/
+.time11,.time12,.time13{
+    font-size: 30px;
+    padding: 15px;
+}
+
+/*  Date2 */
+.date2{
+    font-size: 35px;
+    padding: 10px;
+    padding-top: 25px;
+    margin-left:55px ;
+}
+
+/* Time 1,2,3*/
+.time21,.time22,.time23{
+    font-size: 30px;
+    padding: 15px;
+    margin-left: 70px;
+}
+
+/*Speaker Tilte*/
+.speaker_title{
+    border-top: double;
+    border-width: 5px;
+    text-align: center;
+    padding: 30px;
+    font-weight: bolder;
+    font-size: 65px;
+    margin-top: 40px;
+}
+
+/*Speaker 1*/
+.speaker1{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 250px;
+}
+.speaker2{
+    text-align: center;
+    font-size: 25px;
+}
+.speakers{
+    border: 50px;
+    display: flex;
+    text-align: right;
+    margin-left: 100px;
+}
+ #name1,#name2{
+    font-weight: bolder;
+    font-size: 35px;
+ }
+
+ .img0{
+    border-style: solid;
+    border-width: 10px;  
+    border-radius: 50px;
+ }
+
+ body {
+
+    background-color: #f9f9f9;
+    color: #444;
+    line-height: 1.6;
+}
+    
+
+
+    /*background: linear-gradient(to right, #e0f7fa, #ffffff);*/
+    
+    /*background: linear-gradient(to right, #ece9f7, #ffffff);*/
+
+
+    

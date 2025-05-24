@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIT Mechanical Engineering Conference Website</title>
+    <meta name="description" content="SIT Mechanical Engieering Confirence Website">
+    <meta name="keywords" content="SIT, Mechanical Engineering, Confirence Website">
+    <meta name="author" content=" SAMRAT B N (1SI21ME053)">
+    <meta http-equiv="refresh" content="720">
+    <link rel="stylesheet" href="design.css">
+    <style>
+    </style>
+    
+    <!--Script -->
+    <script>
+        // Retrieve the new text from localStorage
+        const newText = localStorage.getItem('title_c');
+    
+        // Update the <h1> text if newText exists
+        if (newText) {
+          document.getElementById('mainHeading').textContent = newText;
+    
+          // Optionally clear the localStorage item
+          localStorage.removeItem('h1Text');
+        }
+      </script>
+
+</head>
+<body>
+    
+    <!--Logo and College Name-->
+    <div class="flex">
+    <div class="logo" style="display: flex;">
+        <img src="Logo/logo.png" width="120px" height="auto" style="border-left: double; border-width:6px;">
+        <p id="title" style="border-right: double; border-width: 6px;">Siddagaga Institute of <br>Technology Tumakur</p>
+    </div>
+    <!--Navigation Bar-->
+    <div class="nvabar">
+    <nav>
+        <a herf="" style="padding: 5px;">Conference | |</a>
+        <a href="Conference website.html" style="padding:5px;">Home</a>
+        <a href="events.html" style="padding: 5px;">Events Overview</a>
+        <a href="comity.html" style="padding: 5px;">Committes</a>
+        <a href="mesanger.html" style="padding: 5px;">Informer Blog</a>
+        <a href="regestration.html" style="padding: 5px;">Registration</a>
+        <a href="cnotact.html" style="padding: 5px;">Contact Us</a>
+        <a href="Editting.html" style="padding: 5px;">Edittig</a>
+        
+    </nav>
+        </div>
+            </div>
+    <div>
+        <div id="line1"></div>
+     </div>
+
+
+     <!--Title-->
+<div class="title" style=";"
+
+">Conference on</div>
+
+<!--Title Content   Mechanical Engineer  7th sem <br>Major Project Conference -->
+<div class="title_c" style="background: linear-gradient(to right, #e3eaf8, #fef6ff);
+border-radius: 80px;"
+>Mechanical Engineer  7th sem <br>Major Project Conference</div>
+
+<!-- conferece Shedule  -->
+<div class="summit">Conferece Shedule</div>
+<!-- Both Date and Time-->
+<div class="date_time">
+<!-- Only Day 1-->
+ <div class="day1" style="background: linear-gradient(to right, #e3eaf8, #fef6ff);
+margin-left: 450px;
+margin-right: 450px;
+border-radius: 50px;">
+<!--Date 1 -->
+<div class="date1" style="">19-Jan-2025</div>
+<!--Timinig-->
+<div class="time11">09:00 AM  - Key Note Adress</div>
+<div class="time12">11:00 AM  - Panel Discussion: Future of Automation</div>
+<div class="time13">02:00 AM  - Workshop: CAD Software Tools</div>
+    </div>
+<!-- Date 2-->
+ <div class="day2" style="background: linear-gradient(to right, #e3eaf8, #fef6ff);
+ margin-left: 450px;
+ margin-right: 450px;
+ margin-top: 30px;
+ border-radius: 50px;">
+<!-- Date 2-->
+<div class="date2">20-Jan-2025</div>
+<!--Timing-->
+<div class="time21">09:00 AM  - Plenary Session: Sustainable Engineering</div>
+<div class="time22">11:00 AM  - Technical Paper Presentations</div>
+<div class="time23">02:00 AM  - Closing Ceremony</div>
+    </div>
+        </div>
+
+<!-- Speakers -->
+<div class="speaker_title">Speakers</div>
+<div class="speakers">
+    <!-- Speaker 1-->
+    <div class="speaker1">
+        <img src="Speakers/ssiyengar.jpeg" width="250px" height="280px" class="img0">
+        <p id="name1"><b>Dr. S. S. Iyengar</b></p>
+        <p id="info1"><b>Professor</b><br>Florida International University, <br>Miami</p>
+    </div>
+    <!--Speaker 2-->
+    <div class="speaker1">
+        <img src="Speakers/DrSajjan.jpg" width="250px" height="280px" class="img0">
+        <p id="name2"><b>Dr. S. S. Iyengar</b></p>
+        <p id="info2"><b>Professor</b><br> Florida International University, <br>Miami</p>
+    </div>
+</div>
+</body>
+</html>
